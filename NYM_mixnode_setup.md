@@ -55,14 +55,14 @@ RestartSec=30
 WantedBy=multi-user.target
 EOF
 ```
-## 7. Mixnode'u çalıştıralım.
+## 8. Mixnode'u çalıştıralım.
 ```
 sudo systemctl enable nym-mixnode
 sudo systemctl daemon-reload
 sudo systemctl start nym-mixnode
 
 ```
-## 7. Loglar ile kontrol edelim.
+## 9. Loglar ile kontrol edelim.
 ```
 sudo journalctl -u nym-mixnode -f
 ```
